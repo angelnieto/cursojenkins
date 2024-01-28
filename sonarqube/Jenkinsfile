@@ -3,7 +3,7 @@ node {
     myGradleContainer.pull()
 
     stage('Preparación') {
-        git branch: 'main', url: 'https://github.com/ricardomolina/gs-gradle.git'
+        git branch: 'main', url: 'https://github.com/angelnieto/gs-gradle.git'
     }
 
     stage('Construcción') {
